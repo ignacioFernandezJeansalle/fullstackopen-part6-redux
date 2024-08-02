@@ -1,8 +1,34 @@
-# React + Vite
+# Parte 6
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Gestión avanzada del estado
 
-Currently, two official plugins are available:
+Utilizamos la librería Redux para administrar el estado de las aplicaciones React. Aprendimos sobre la versión ligera de Redux compatible directamente con React, es decir el contexto de React y el hook useRedux, también sobre la librería React Query que simplifica la gestión de estados de la aplicación.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+✅ https://fullstackopen.com/es/part6
+
+### Ejercicios
+
+- [x] 6.1 => a: Flux-architecture y Redux
+- [ ] 6.2 => a: Flux-architecture y Redux
+- [ ] 6.3 => a: Flux-architecture y Redux
+- [ ] 6.4 => a: Flux-architecture y Redux
+- [ ] 6.5 => a: Flux-architecture y Redux
+- [ ] 6.6 => a: Flux-architecture y Redux
+- [ ] 6.7 => a: Flux-architecture y Redux
+- [ ] 6.8 => a: Flux-architecture y Redux
+- [ ] 6.9 => b: Muchos reducers
+- [ ] 6.10 => b: Muchos reducers
+- [ ] 6.11 => b: Muchos reducers
+- [ ] 6.12 => b: Muchos reducers
+- [ ] 6.13 => b: Muchos reducers
+- [ ] 6.14 => c: Comunicarse con el servidor en una aplicación redux
+- [ ] 6.15 => c: Comunicarse con el servidor en una aplicación redux
+- [ ] 6.16 => c: Comunicarse con el servidor en una aplicación redux
+- [ ] 6.17 => c: Comunicarse con el servidor en una aplicación redux
+- [ ] 6.18 => c: Comunicarse con el servidor en una aplicación redux
+- [ ] 6.19 => c: Comunicarse con el servidor en una aplicación redux
+- [ ] 6.20 => d: React Query, useReducer y el contexto
+- [ ] 6.21 => d: React Query, useReducer y el contexto
+- [ ] 6.22 => d: React Query, useReducer y el contexto
+- [ ] 6.23 => d: React Query, useReducer y el contexto
+- [ ] 6.24 => d: React Query, useReducer y el contexto
