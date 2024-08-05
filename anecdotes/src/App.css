@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #ddd;
+  color: #222;
+  padding: 16px 32px;
+}
+
+header {
+  margin-bottom: 16px;
+}
+
+button {
+  padding: 4px 8px;
+  border: 1px solid #bbb;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.anecdotes {
+  border: 1px solid #bbb;
+  padding: 8px;
+  margin-bottom: 24px;
+}
+
+.anecdotes-list {
+  list-style: none;
+}
+
+.anecdotes-listitem {
+  padding-block: 4px;
+  border-bottom: 1px solid #bbb;
+}
+
+.anecdotes-content {
+  font-weight: 600;
+}
+
+.anecdotes-votes {
+  display: flex;
+  align-items: center;
+  column-gap: 8px;
+  padding-top: 4px;
+}
+
+.create {
+  border: 1px solid #bbb;
+  padding: 8px;
+}
+
+.create h2 {
+  margin-bottom: 8px;
+}
+
+.create-form {
+  display: flex;
+  column-gap: 8px;
+}
