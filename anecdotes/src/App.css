@@ -46,17 +46,3 @@ button {
   column-gap: 8px;
   padding-top: 4px;
 }
-
-.create {
-  border: 1px solid #bbb;
-  padding: 8px;
-}
-
-.create h2 {
-  margin-bottom: 8px;
-}
-
-.create-form {
-  display: flex;
-  column-gap: 8px;
-}
