@@ -3,7 +3,8 @@ import { useSelector, useDispatch } from "react-redux";
 import "./App.css";
 
 const App = () => {
-  const anecdotes = useSelector((state) => state);
+  const anecdotes = useSelector((state) => state.toSorted((a, b) => b.votes - a.votes));
+
   const dispatch = useDispatch();
 
   const addAnecdote = (event) => {

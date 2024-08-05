@@ -12,7 +12,7 @@ Utilizamos la librería Redux para administrar el estado de las aplicaciones Rea
 - [x] 6.2 => a: Flux-architecture y Redux
 - [x] 6.3 => a: Flux-architecture y Redux
 - [x] 6.4 => a: Flux-architecture y Redux
-- [ ] 6.5 => a: Flux-architecture y Redux
+- [x] 6.5 => a: Flux-architecture y Redux
 - [ ] 6.6 => a: Flux-architecture y Redux
 - [ ] 6.7 => a: Flux-architecture y Redux
 - [ ] 6.8 => a: Flux-architecture y Redux
