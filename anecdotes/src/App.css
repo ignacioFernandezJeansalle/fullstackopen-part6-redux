@@ -20,29 +20,3 @@ button {
   border-radius: 4px;
   cursor: pointer;
 }
-
-.anecdotes {
-  border: 1px solid #bbb;
-  padding: 8px;
-  margin-bottom: 24px;
-}
-
-.anecdotes-list {
-  list-style: none;
-}
-
-.anecdotes-listitem {
-  padding-block: 4px;
-  border-bottom: 1px solid #bbb;
-}
-
-.anecdotes-content {
-  font-weight: 600;
-}
-
-.anecdotes-votes {
-  display: flex;
-  align-items: center;
-  column-gap: 8px;
-  padding-top: 4px;
-}
