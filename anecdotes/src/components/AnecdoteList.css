@@ -1,0 +1,25 @@
+.anecdotes-list-container {
+  border: 1px solid #bbb;
+  padding: 8px;
+  margin-bottom: 24px;
+}
+
+.anecdotes-list {
+  list-style: none;
+}
+
+.anecdotes-list-item {
+  padding-block: 4px;
+  border-bottom: 1px solid #bbb;
+}
+
+.anecdotes-list-item-content {
+  font-weight: 600;
+}
+
+.anecdotes-list-item-votes {
+  display: flex;
+  align-items: center;
+  column-gap: 8px;
+  padding-top: 4px;
+}
