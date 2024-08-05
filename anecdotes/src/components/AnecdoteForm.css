@@ -1,0 +1,13 @@
+.anecdote-form-container {
+  border: 1px solid #bbb;
+  padding: 8px;
+}
+
+.anecdote-form-container h2 {
+  margin-bottom: 8px;
+}
+
+.anecdote-form {
+  display: flex;
+  column-gap: 8px;
+}
