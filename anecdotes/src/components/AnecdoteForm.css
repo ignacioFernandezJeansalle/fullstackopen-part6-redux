@@ -1,6 +1,7 @@
 .anecdote-form-container {
   border: 1px solid #bbb;
   padding: 8px;
+  margin-bottom: 24px;
 }
 
 .anecdote-form-container h2 {
