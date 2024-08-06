@@ -1,5 +1,5 @@
 import { useSelector, useDispatch } from "react-redux";
-import { filterChange } from "../reducers/filterReducer";
+import { setFilter } from "../reducers/filterReducer";
 
 import "./Filter.css";
 
@@ -15,7 +15,7 @@ const Filter = () => {
           name="filter"
           id="input-filter"
           value={filter}
-          onChange={(event) => dispatch(filterChange(event.target.value))}
+          onChange={(event) => dispatch(setFilter(event.target.value))}
         />
       </form>
     </section>
