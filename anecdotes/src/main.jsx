@@ -8,9 +8,3 @@ ReactDOM.createRoot(document.getElementById("root")).render(
     <App />
   </Provider>
 );
-
-/* 
-Cambia la definición del filter reducer y sus action creators para usar la función createSlice de Redux Toolkit.
-
-También, comienza a utilizar Redux DevTools para depurar el estado de la aplicación fácilmente.
-*/
