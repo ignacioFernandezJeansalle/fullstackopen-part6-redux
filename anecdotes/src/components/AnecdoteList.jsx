@@ -1,5 +1,7 @@
 import { useSelector, useDispatch } from "react-redux";
 import { addVote } from "../reducers/anecdoteReducer";
+import { setNotificationWithTime } from "../reducers/notificationReducer";
+
 import "./AnecdoteList.css";
 
 const AnecdoteListItem = ({ anecdote, handleClick }) => {
@@ -22,11 +24,17 @@ const AnecdoteList = () => {
 
   const dispatch = useDispatch();
 
+  const handleClick = (id) => {
+    dispatch(addVote(id));
+    const votedAnecdote = anecdotes.find((anecdote) => anecdote.id === id);
+    setNotificationWithTime(dispatch, `You voted: "${votedAnecdote.content}"`);
+  };
+
   return (
     <section className="anecdotes-list-container">
       <ul className="anecdotes-list">
         {anecdotes.map((anecdote) => (
-          <AnecdoteListItem key={anecdote.id} anecdote={anecdote} handleClick={() => dispatch(addVote(anecdote.id))} />
+          <AnecdoteListItem key={anecdote.id} anecdote={anecdote} handleClick={() => handleClick(anecdote.id)} />
         ))}
       </ul>
     </section>
