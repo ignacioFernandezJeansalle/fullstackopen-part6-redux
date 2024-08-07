@@ -11,7 +11,7 @@ const AnecdoteForm = () => {
     event.preventDefault();
     const content = event.target.anecdote.value;
     dispatch(createAnecdote(content));
-    setNotificationWithTime(dispatch, `You created: "${content}"`);
+    dispatch(setNotificationWithTime(`You created: "${content}"`, 5));
     event.target.anecdote.value = "";
   };
 
