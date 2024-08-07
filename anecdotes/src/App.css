@@ -10,6 +10,10 @@ body {
   padding: 16px 32px;
 }
 
+main {
+  position: relative;
+}
+
 header {
   margin-bottom: 16px;
 }
