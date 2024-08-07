@@ -18,8 +18,7 @@ const AnecdoteListItem = ({ anecdote, handleClick }) => {
 
 const AnecdoteList = () => {
   const anecdotes = useSelector(({ anecdotes, filter }) => {
-    const filteredAnecdotes = filter === "" ? anecdotes : anecdotes.filter((a) => a.content.includes(filter));
-    return filteredAnecdotes.toSorted((a, b) => b.votes - a.votes);
+    return filter === "" ? anecdotes : anecdotes.filter((a) => a.content.includes(filter));
   });
 
   const dispatch = useDispatch();
@@ -34,9 +33,11 @@ const AnecdoteList = () => {
   return (
     <section className="anecdotes-list-container">
       <ul className="anecdotes-list">
-        {anecdotes.map((anecdote) => (
-          <AnecdoteListItem key={anecdote.id} anecdote={anecdote} handleClick={() => handleClick(anecdote.id)} />
-        ))}
+        {anecdotes
+          .toSorted((a, b) => b.votes - a.votes)
+          .map((anecdote) => (
+            <AnecdoteListItem key={anecdote.id} anecdote={anecdote} handleClick={() => handleClick(anecdote.id)} />
+          ))}
       </ul>
     </section>
   );
