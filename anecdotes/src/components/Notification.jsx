@@ -1,14 +1,13 @@
 import { useSelector } from "react-redux";
 
+import "./Notification.css";
+
 const Notification = () => {
   const notification = useSelector(({ notification }) => notification);
 
-  const style = {
-    border: "1px solid #bbb",
-    padding: "8px",
-  };
+  if (notification === "") return null;
 
-  return <div style={style}>{notification}</div>;
+  return <div className="notification">{notification}</div>;
 };
 
 export default Notification;

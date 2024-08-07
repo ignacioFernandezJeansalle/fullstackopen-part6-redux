@@ -1,0 +1,10 @@
+.notification {
+  position: absolute;
+  top: -50px;
+  right: 0;
+  max-width: 500px;
+  border: 1px solid #bbb;
+  padding: 8px;
+  background: #555;
+  color: #eee;
+}
