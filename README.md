@@ -24,7 +24,7 @@ Utilizamos la librería Redux para administrar el estado de las aplicaciones Rea
 - [x] 6.14 => c: Comunicarse con el servidor en una aplicación redux
 - [x] 6.15 => c: Comunicarse con el servidor en una aplicación redux
 - [x] 6.16 => c: Comunicarse con el servidor en una aplicación redux
-- [ ] 6.17 => c: Comunicarse con el servidor en una aplicación redux
+- [x] 6.17 => c: Comunicarse con el servidor en una aplicación redux
 - [ ] 6.18 => c: Comunicarse con el servidor en una aplicación redux
 - [ ] 6.19 => c: Comunicarse con el servidor en una aplicación redux
 - [ ] 6.20 => d: React Query, useReducer y el contexto
