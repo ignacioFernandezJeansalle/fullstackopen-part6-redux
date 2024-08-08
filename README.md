@@ -38,5 +38,5 @@ Utilizamos la librería Redux para administrar el estado de las aplicaciones Rea
 - [x] 6.20 => d: React Query, useReducer y el contexto
 - [x] 6.21 => d: React Query, useReducer y el contexto
 - [x] 6.22 => d: React Query, useReducer y el contexto
-- [ ] 6.23 => d: React Query, useReducer y el contexto
+- [x] 6.23 => d: React Query, useReducer y el contexto
 - [ ] 6.24 => d: React Query, useReducer y el contexto
