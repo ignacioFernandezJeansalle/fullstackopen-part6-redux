@@ -12,3 +12,7 @@ export const createAnecdote = (content) => {
 
   return axios.post(baseUrl, newAnecdote).then((response) => response.data);
 };
+
+export const updateAnecdote = (anecdote) => {
+  return axios.put(`${baseUrl}/${anecdote.id}`, anecdote).then((response) => response.data);
+};
