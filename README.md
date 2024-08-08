@@ -8,8 +8,13 @@ Utilizamos la librería Redux para administrar el estado de las aplicaciones Rea
 
 ### Ejercicios
 
+[./unicafe](https://github.com/ignacioFernandezJeansalle/fullstackopen-part6-redux-and-query/tree/main/unicafe)
+
 - [x] 6.1 => a: Flux-architecture y Redux
 - [x] 6.2 => a: Flux-architecture y Redux
+
+[./anecdotes](https://github.com/ignacioFernandezJeansalle/fullstackopen-part6-redux-and-query/tree/main/anecdotes)
+
 - [x] 6.3 => a: Flux-architecture y Redux
 - [x] 6.4 => a: Flux-architecture y Redux
 - [x] 6.5 => a: Flux-architecture y Redux
@@ -27,6 +32,9 @@ Utilizamos la librería Redux para administrar el estado de las aplicaciones Rea
 - [x] 6.17 => c: Comunicarse con el servidor en una aplicación redux
 - [x] 6.18 => c: Comunicarse con el servidor en una aplicación redux
 - [x] 6.19 => c: Comunicarse con el servidor en una aplicación redux
+
+[./anecdotes-query](https://github.com/ignacioFernandezJeansalle/fullstackopen-part6-redux-and-query/tree/main/anecdotes-query)
+
 - [ ] 6.20 => d: React Query, useReducer y el contexto
 - [ ] 6.21 => d: React Query, useReducer y el contexto
 - [ ] 6.22 => d: React Query, useReducer y el contexto
