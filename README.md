@@ -36,7 +36,7 @@ Utilizamos la librería Redux para administrar el estado de las aplicaciones Rea
 [./anecdotes-query](https://github.com/ignacioFernandezJeansalle/fullstackopen-part6-redux-and-query/tree/main/anecdotes-query)
 
 - [x] 6.20 => d: React Query, useReducer y el contexto
-- [ ] 6.21 => d: React Query, useReducer y el contexto
+- [x] 6.21 => d: React Query, useReducer y el contexto
 - [ ] 6.22 => d: React Query, useReducer y el contexto
 - [ ] 6.23 => d: React Query, useReducer y el contexto
 - [ ] 6.24 => d: React Query, useReducer y el contexto
